@@ -1,0 +1,22 @@
+###
+POST http://localhost:8080/chat
+Content-Type: application/x-www-form-urlencoded
+
+Hello, how are you?
+
+###
+POST http://localhost:8080/consultations
+Content-Type: application/json
+
+{
+  "patient_name": "John Doe",
+  "age": 40,
+  "gender": "male",
+  "symptoms": "headache, fever",
+  "diagnosis": "migraine",
+  "treatment": "rest, medication",
+  "notes": "patient needs to rest for a few days"
+}
+
+###
+GET http://localhost:8080/consultations/list

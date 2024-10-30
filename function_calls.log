@@ -1,0 +1,187 @@
+2024/10/30 17:47:19 Function Call - Name: call_emergency, Arguments: {}
+2024/10/30 17:49:33 Function Call - Name: call_emergency, Arguments: {}
+2024/10/30 17:49:59 Function Call - Name: call_emergency, Arguments: {}
+2024/10/30 17:51:55 Function Call - Name: call_emergency, Arguments: {}
+2024/10/30 17:53:33 Function Call - Name: call_emergency, Arguments: {}
+2024/10/30 18:00:57 Function Call - Name: call_emergency, Arguments: {}
+2024/10/30 18:02:12 Function Call - Name: call_emergency, Arguments: {}
+2024/10/30 18:04:16 Function Call - Name: call_emergency, Arguments: {}
+2024/10/30 18:04:49 Function Call - Name: call_emergency, Arguments: {}
+2024/10/30 18:17:08 Function Call - Name: call_emergency, Arguments: {}
+2024/10/30 18:17:15 Function Call - Name: get_patient_info, Arguments: {}
+2024/10/30 18:21:58 Function Call - Name: call_emergency, Arguments: {}
+2024/10/30 18:22:03 Function Call - Name: get_patient_info, Arguments: {}
+2024/10/30 18:41:25 Function Call - Name: get_patient_info, Arguments: {}
+2024/10/30 18:43:59 Function Call - Name: get_patient_info, Arguments: {
+  "patient_name": "마마마"
+}
+2024/10/30 18:45:44 Function Call - Name: get_patient_info, Arguments: {
+"patient_name": "오마델"
+}
+2024/10/30 18:53:31 Function Call - Name: call_emergency, Arguments: {
+"emergency_type": "강도",
+"location": "종로구"
+}
+2024/10/30 18:53:54 Function Call - Name: call_emergency, Arguments: {
+  "emergency_type": "호흡곤란",
+  "location": "종로구"
+}
+2024/10/30 18:54:02 Function Call - Name: get_patient_info, Arguments: {
+  "patient_name": "unknown",
+  "symptoms": "호흡곤란"
+}
+2024/10/30 20:33:59 Function Call - Name: get_patient_info, Arguments: {
+  "patient_name": "백동주",
+  "symptoms": "배 아픔"
+}
+2024/10/30 20:34:45 Function Call - Name: call_emergency, Arguments: {
+  "emergency_type": "abdominal pain",
+  "location": "home"
+}
+2024/10/30 20:34:58 Function Call - Name: get_patient_info, Arguments: {
+  "patient_name": "백동주",
+  "symptoms": "상복부 통증, 설사"
+}
+2024/10/30 20:35:07 Function Call - Name: call_emergency, Arguments: {
+  "emergency_type": "복통 및 설사",
+  "location": "상복부"
+}
+2024/10/30 20:35:27 Function Call - Name: get_patient_info, Arguments: {
+  "diagnosis": "급성 장염",
+  "patient_name": "백동주",
+  "symptoms": "상복부 통증, 설사",
+  "treatment": "휴식, 충분한 수분 섭취, BRAT 사파리 식단 (바나나, 볏아리 쌀포리지, 사과소스, 토스트)"
+}
+2024/10/30 20:35:55 Function Call - Name: call_emergency, Arguments: {
+  "emergency_type": "abdominal pain and diarrhea",
+  "location": "unknown"
+}
+2024/10/30 20:36:11 Function Call - Name: get_patient_info, Arguments: {
+  "diagnosis": "급성 위장염",
+  "patient_name": "백동주",
+  "symptoms": "상복부 통증, 설사",
+  "treatment": "휴식과 충분한 수분 섭취, 소화가 잘되는 식사를 하세요. 또한, 가슴 통증, 기절, 혈변 등의 심각한 증상이 나타나면 즉시 의사의 상담이 필요합니다."
+}
+2024/10/30 20:37:49 Function Call - Name: get_patient_info, Arguments: {
+  "diagnosis": "변비",
+  "patient_name": "백동주",
+  "symptoms": "복부 통증, 변을 보지 못함, 피로감",
+  "treatment": "물을 많이 마시고 식이섬유가 풍부한 음식을 섭취하십시오. 운동도 도움이 될 것입니다. 증상이 지속되면 의료기관을 방문하십시오."
+}
+2024/10/30 20:38:03 Function Call - Name: get_patient_info, Arguments: {
+  "diagnosis": "결장 또는 직장에 심각한 문제",
+  "patient_name": "백동주",
+  "symptoms": "동안 변을 보지 못하는 복부 통증 및 피로",
+  "treatment": "즉시 ER 참석 필요"
+}
+2024/10/30 20:38:14 Function Call - Name: end_conversation, Arguments: {
+  "reason": "환자가 대화을 종료 하고 싶어 함"
+}
+2024/10/30 20:38:44 Function Call - Name: end_conversation, Arguments: {
+  "reason": "환자가 대화를 끝내려고 함"
+}
+2024/10/30 20:46:19 FunctionSpec Call - Name: get_patient_info, Arguments: {
+"patient_name": "감자",
+"symptoms": "1주일에 두 번 변을 보며, 똥이 단단함. 하복부에 통증이 있음. 보쌈을 먹었음",
+"diagnosis": "변비",
+"treatment": "많은 물을 마시고, 식이섬유가 풍부한 음식을 섭취. 지속적인 복부 통증이나 증상 악화 시 즉시 의료진과 상의"
+}
+2024/10/30 20:46:38 FunctionSpec Call - Name: end_conversation, Arguments: {
+"reason": "환자가 대화를 종료하고 싶어함"
+}
+2024/10/30 20:47:49 FunctionSpec Call - Name: get_patient_info, Arguments: {
+"patient_name": "백동주",
+"symptoms": "변비, 식욕 부진",
+"diagnosis": "식욕 부진으로 인한 변비",
+"treatment": "균형 잡힌 식사와 충분한 수분 섭취 권장"
+}
+2024/10/30 20:48:03 FunctionSpec Call - Name: get_patient_info, Arguments: {
+"patient_name": "백동주",
+"symptoms": "변비",
+"diagnosis": "식습관 변경과 관련된 변비",
+"treatment": "규칙적인 식사와 충분한 수분 섭취를 권장합니다."
+}
+2024/10/30 20:48:25 FunctionSpec Call - Name: end_conversation, Arguments: {
+  "reason": "Unable to assist with non-medical requests"
+}
+2024/10/30 20:49:19 FunctionSpec Call - Name: get_patient_info, Arguments: {
+  "diagnosis": "변비",
+  "patient_name": "백동주",
+  "symptoms": "변비",
+  "treatment": "충분한 수분 섭취와 식이섬유질을 섭취하는 것이 도움이 됩니다. 만약 이러한 습관적인 조치가 변비를 개선하는데 도움이 되지 않거나 증상이 심해진다면 고려해야 할 진단이나 치료가 있을 수 있어, 가까운 의료진과 상의하시는 것을 추천드립니다. "
+}
+2024/10/30 20:49:34 FunctionSpec Call - Name: get_patient_info, Arguments: {
+"diagnosis": "변비",
+"patient_name": "백동주",
+"symptoms": "변비",
+"treatment": "충분한 수분 섭취와 식이섬유질을 섭취한다. 결과가 나아지지 않으면 의료진와 상의한다."
+}
+2024/10/30 20:49:37 FunctionSpec Call - Name: get_patient_info, Arguments: {
+  "patient_name": "백동주",
+  "symptoms": "변비",
+  "diagnosis": "식습관 및 수분 섭취 부족으로 인한 변비",
+  "treatment": "충분한 수분 섭취, 식이섬유질 섭취 등 식습관 개선 조치 필요"
+}
+2024/10/30 20:49:47 FunctionSpec Call - Name: call_emergency, Arguments: {
+  "emergency_type": "Verbal Abuse",
+  "location": "Online Consultation"
+}
+2024/10/30 20:50:08 FunctionSpec Call - Name: get_patient_info, Arguments: {
+"patient_name": "백동주",
+"symptoms": "변비",
+"diagnosis": "일시적인 변비",
+"treatment": "충분한 수분과 식이섬유질 섭취"
+}
+2024/10/30 20:50:14 FunctionSpec Call - Name: end_conversation, Arguments: {
+  "reason": "환자가 화가 나서 대화를 종료하길 원합니다."
+}
+2024/10/30 20:50:20 FunctionSpec Call - Name: end_conversation, Arguments: {
+  "reason": "사람이 대화를 불쾌하게 느끼고 있음"
+}
+2024/10/30 20:50:25 FunctionSpec Call - Name: end_conversation, Arguments: {
+  "reason": "사용자가 불만족하고 대화를 종료하려 함"
+}
+2024/10/30 20:52:06 FunctionSpec Call - Name: get_patient_info, Arguments: {
+  "patient_name": "상남자"
+}
+2024/10/30 20:52:13 FunctionSpec Call - Name: get_patient_info, Arguments: {
+"patient_name": "상남자",
+"symptoms": "변비"
+}
+2024/10/30 20:52:51 FunctionSpec Call - Name: call_emergency, Arguments: {
+  "emergency_type": "fire",
+  "location": "unknown"
+}
+2024/10/30 20:53:34 FunctionSpec Call - Name: end_conversation, Arguments: {
+  "reason": "환자가 대화 종료를 원함"
+}
+2024/10/30 20:54:38 FunctionSpec Call - Name: get_patient_info, Arguments: {
+  "patient_name": "상남자"
+}
+2024/10/30 20:54:49 FunctionSpec Call - Name: get_patient_info, Arguments: {
+"patient_name": "상남자",
+"symptoms": "똥이 안나와"
+}
+2024/10/30 20:56:25 FunctionSpec Call - Name: get_patient_info, Arguments: {
+"patient_name": "Unknown",
+"symptoms": "Constipation"
+}
+2024/10/30 20:56:47 FunctionSpec Call - Name: get_patient_info, Arguments: {
+  "patient_name": "백동주",
+  "symptoms": "변비"
+}
+2024/10/30 20:57:04 FunctionSpec Call - Name: get_patient_info, Arguments: {
+"patient_name": "백동주",
+"symptoms": "똥이 안 나오며, 물만 먹고 배가 부르다. 머리가 아프다",
+"diagnosis": "변비",
+"treatment": "섬유질을 많이 섭취하고, 운동을 하며, 충분한 수분 섭취가 필요하다"
+}
+2024/10/30 20:57:24 FunctionSpec Call - Name: end_conversation, Arguments: {
+"reason": "환자가 대화를 종료하고 싶어함"
+}
+2024/10/30 20:57:49 FunctionSpec Call - Name: get_patient_info, Arguments: {
+  "patient_name": "백동주",
+  "symptoms": "똥이 안 나오고 물만 나옴, 배가 부르고 머리가 아픔",
+  "diagnosis": "장염",
+  "treatment": "프로바이오틱스 균주를 이용한 장 건강 개선, 충분한 수분 섭취"
+}
